@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.trabalhom2">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login_Main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".register.register_class"  android:label="@string/register" >
+        </activity>
+        <activity android:name=".after_login.After_login"  android:label="@string/after_login" >
+        </activity>
+        <activity android:name=".chat.Chat_class"  android:label="@string/chat" >
+        </activity>
+        <activity android:name=".chat.Image_Viewer"  android:label="@string/image_viewer" >
+        </activity>
+        <activity android:name=".chat.Search_File"  android:label="@string/search_file" >
+        </activity>
+        <activity android:name=".chat.Sound_player"  android:label="@string/sound_player" >
+        </activity>
+
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TrabalhoM2</string>
+    <string name="register">register_class</string>
+    <string name="after_login">After_login</string>
+    <string name="chat">Chat_class</string>
+    <string name="image_viewer">Image_Viewer</string>
+    <string name="search_file">Search_File</string>
+    <string name="sound_player">Sound_player</string>
+
+</resources>
