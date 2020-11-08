@@ -2,7 +2,7 @@ package com.example.trabalhom2.structs;
 
 public class struct_url {
 
-    private String address = "http://192.168.25.5:0080/trabalho_app/";      ///LocalHost
+    private String address = "http://192.168.25.4:0080/trabalho_app/";      ///LocalHost
 
     private String login_url =                  address + "login/login.php";
 
